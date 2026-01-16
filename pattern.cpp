@@ -8,11 +8,12 @@ int main() {
     cout <<"Enter size : "<<endl;
     cin >>size;
 
-    for (int i = 0; i < size; i++){
-        for (int j = 0; j <= i; j++){
+    for (int row = 1; row <= size; row++){
+        for (int stars = 1; stars <= row; stars++){
             cout <<"*";
         }
         cout <<endl;
     }
 
+    return 0;
 }
